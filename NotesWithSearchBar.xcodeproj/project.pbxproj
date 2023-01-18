@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		80745CFF29785CA100ACCBBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80745CFE29785CA100ACCBBF /* AppDelegate.swift */; };
 		80745D0129785CA100ACCBBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80745D0029785CA100ACCBBF /* SceneDelegate.swift */; };
-		80745D0329785CA200ACCBBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80745D0229785CA200ACCBBF /* ViewController.swift */; };
-		80745D0629785CA200ACCBBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80745D0429785CA200ACCBBF /* Main.storyboard */; };
+		80745D0629785CA200ACCBBF /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80745D0429785CA200ACCBBF /* TabBar.storyboard */; };
 		80745D0829785CA300ACCBBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80745D0729785CA300ACCBBF /* Assets.xcassets */; };
 		80745D0B29785CA300ACCBBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80745D0929785CA300ACCBBF /* LaunchScreen.storyboard */; };
+		80745D1929785DF200ACCBBF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80745D1829785DF200ACCBBF /* TabBarController.swift */; };
+		80745D1D29785E9B00ACCBBF /* Note.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80745D1C29785E9B00ACCBBF /* Note.storyboard */; };
+		80745D1F29785EAE00ACCBBF /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80745D1E29785EAE00ACCBBF /* NoteViewController.swift */; };
+		80745D2129785EB800ACCBBF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80745D2029785EB800ACCBBF /* Home.storyboard */; };
+		80745D2329785EC200ACCBBF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80745D2229785EC200ACCBBF /* HomeViewController.swift */; };
+		80745D2629785FFB00ACCBBF /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80745D2529785FFB00ACCBBF /* Note.swift */; };
+		80745D282978601C00ACCBBF /* NoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80745D272978601C00ACCBBF /* NoteDataSource.swift */; };
+		80745D2B2978605A00ACCBBF /* NoteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80745D2A2978605A00ACCBBF /* NoteCollectionViewCell.swift */; };
+		80745D2E2978624A00ACCBBF /* CreateNote.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80745D2D2978624A00ACCBBF /* CreateNote.storyboard */; };
+		80745D302978625800ACCBBF /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80745D2F2978625800ACCBBF /* CreateNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80745CFB29785CA100ACCBBF /* NotesWithSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesWithSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80745CFE29785CA100ACCBBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80745D0029785CA100ACCBBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80745D0229785CA200ACCBBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80745D0529785CA200ACCBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80745D0529785CA200ACCBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TabBar.storyboard; sourceTree = "<group>"; };
 		80745D0729785CA300ACCBBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80745D0A29785CA300ACCBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80745D0C29785CA300ACCBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80745D1829785DF200ACCBBF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		80745D1C29785E9B00ACCBBF /* Note.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Note.storyboard; sourceTree = "<group>"; };
+		80745D1E29785EAE00ACCBBF /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		80745D2029785EB800ACCBBF /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		80745D2229785EC200ACCBBF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		80745D2529785FFB00ACCBBF /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		80745D272978601C00ACCBBF /* NoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDataSource.swift; sourceTree = "<group>"; };
+		80745D2A2978605A00ACCBBF /* NoteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCollectionViewCell.swift; sourceTree = "<group>"; };
+		80745D2D2978624A00ACCBBF /* CreateNote.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateNote.storyboard; sourceTree = "<group>"; };
+		80745D2F2978625800ACCBBF /* CreateNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,112 @@
 		80745CFD29785CA100ACCBBF /* NotesWithSearchBar */ = {
 			isa = PBXGroup;
 			children = (
-				80745CFE29785CA100ACCBBF /* AppDelegate.swift */,
-				80745D0029785CA100ACCBBF /* SceneDelegate.swift */,
-				80745D0229785CA200ACCBBF /* ViewController.swift */,
-				80745D0429785CA200ACCBBF /* Main.storyboard */,
-				80745D0729785CA300ACCBBF /* Assets.xcassets */,
-				80745D0929785CA300ACCBBF /* LaunchScreen.storyboard */,
-				80745D0C29785CA300ACCBBF /* Info.plist */,
+				80745D1229785CEE00ACCBBF /* App */,
+				80745D1329785CF400ACCBBF /* Scenes */,
+				80745D1629785D3700ACCBBF /* Resources */,
+				80745D1729785D3D00ACCBBF /* SupportingFiles */,
 			);
 			path = NotesWithSearchBar;
+			sourceTree = "<group>";
+		};
+		80745D1229785CEE00ACCBBF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				80745CFE29785CA100ACCBBF /* AppDelegate.swift */,
+				80745D0029785CA100ACCBBF /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		80745D1329785CF400ACCBBF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				80745D1429785CFC00ACCBBF /* Launch */,
+				80745D2C2978622F00ACCBBF /* CreateNotesPage */,
+				80745D292978603F00ACCBBF /* NoteCollectionViewCell  */,
+				80745D2429785FEA00ACCBBF /* Model */,
+				80745D1B29785E7F00ACCBBF /* NotesFiles */,
+				80745D1A29785E7600ACCBBF /* HomeFiles  */,
+				80745D1529785D0300ACCBBF /* TabBar */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		80745D1429785CFC00ACCBBF /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				80745D0929785CA300ACCBBF /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		80745D1529785D0300ACCBBF /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				80745D0429785CA200ACCBBF /* TabBar.storyboard */,
+				80745D1829785DF200ACCBBF /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		80745D1629785D3700ACCBBF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80745D0729785CA300ACCBBF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80745D1729785D3D00ACCBBF /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				80745D0C29785CA300ACCBBF /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		80745D1A29785E7600ACCBBF /* HomeFiles  */ = {
+			isa = PBXGroup;
+			children = (
+				80745D2029785EB800ACCBBF /* Home.storyboard */,
+				80745D2229785EC200ACCBBF /* HomeViewController.swift */,
+			);
+			path = "HomeFiles ";
+			sourceTree = "<group>";
+		};
+		80745D1B29785E7F00ACCBBF /* NotesFiles */ = {
+			isa = PBXGroup;
+			children = (
+				80745D1C29785E9B00ACCBBF /* Note.storyboard */,
+				80745D1E29785EAE00ACCBBF /* NoteViewController.swift */,
+			);
+			path = NotesFiles;
+			sourceTree = "<group>";
+		};
+		80745D2429785FEA00ACCBBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80745D2529785FFB00ACCBBF /* Note.swift */,
+				80745D272978601C00ACCBBF /* NoteDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80745D292978603F00ACCBBF /* NoteCollectionViewCell  */ = {
+			isa = PBXGroup;
+			children = (
+				80745D2A2978605A00ACCBBF /* NoteCollectionViewCell.swift */,
+			);
+			path = "NoteCollectionViewCell ";
+			sourceTree = "<group>";
+		};
+		80745D2C2978622F00ACCBBF /* CreateNotesPage */ = {
+			isa = PBXGroup;
+			children = (
+				80745D2D2978624A00ACCBBF /* CreateNote.storyboard */,
+				80745D2F2978625800ACCBBF /* CreateNoteViewController.swift */,
+			);
+			path = CreateNotesPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80745D1D29785E9B00ACCBBF /* Note.storyboard in Resources */,
+				80745D2129785EB800ACCBBF /* Home.storyboard in Resources */,
 				80745D0B29785CA300ACCBBF /* LaunchScreen.storyboard in Resources */,
 				80745D0829785CA300ACCBBF /* Assets.xcassets in Resources */,
-				80745D0629785CA200ACCBBF /* Main.storyboard in Resources */,
+				80745D2E2978624A00ACCBBF /* CreateNote.storyboard in Resources */,
+				80745D0629785CA200ACCBBF /* TabBar.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +256,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80745D0329785CA200ACCBBF /* ViewController.swift in Sources */,
+				80745D2329785EC200ACCBBF /* HomeViewController.swift in Sources */,
+				80745D1F29785EAE00ACCBBF /* NoteViewController.swift in Sources */,
+				80745D1929785DF200ACCBBF /* TabBarController.swift in Sources */,
 				80745CFF29785CA100ACCBBF /* AppDelegate.swift in Sources */,
+				80745D302978625800ACCBBF /* CreateNoteViewController.swift in Sources */,
+				80745D2B2978605A00ACCBBF /* NoteCollectionViewCell.swift in Sources */,
+				80745D282978601C00ACCBBF /* NoteDataSource.swift in Sources */,
 				80745D0129785CA100ACCBBF /* SceneDelegate.swift in Sources */,
+				80745D2629785FFB00ACCBBF /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		80745D0429785CA200ACCBBF /* Main.storyboard */ = {
+		80745D0429785CA200ACCBBF /* TabBar.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				80745D0529785CA200ACCBBF /* Base */,
 			);
-			name = Main.storyboard;
+			name = TabBar.storyboard;
 			sourceTree = "<group>";
 		};
 		80745D0929785CA300ACCBBF /* LaunchScreen.storyboard */ = {
@@ -288,10 +412,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NotesWithSearchBar/Info.plist;
+				INFOPLIST_FILE = NotesWithSearchBar/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = TabBar;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,10 +439,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NotesWithSearchBar/Info.plist;
+				INFOPLIST_FILE = NotesWithSearchBar/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = TabBar;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
