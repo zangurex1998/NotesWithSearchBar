@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct Note{
-    let header : String
-    let text : String
+struct Note : Codable{
+    var header : String
+    var text : String
 }

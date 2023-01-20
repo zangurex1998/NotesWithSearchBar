@@ -6,7 +6,7 @@
 //
 
 import Foundation
-class NoteDataSource{
+class NoteDataSource : Codable{
     static var shared = NoteDataSource()
     var notes : [Note] = []
 }

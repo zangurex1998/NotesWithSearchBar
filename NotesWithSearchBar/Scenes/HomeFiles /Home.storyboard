@@ -49,7 +49,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="F8x-zR-thX"/>
                     <connections>
-                        <outlet property="nameLabel" destination="Li7-zj-DcV" id="AGc-Yn-a9v"/>
+                        <outlet property="nameTextField" destination="Li7-zj-DcV" id="Wl9-FQ-JjY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FFd-6b-5fZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

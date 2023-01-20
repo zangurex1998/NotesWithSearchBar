@@ -9,8 +9,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
     //MARK: - Outlets
-    @IBOutlet weak var nametextField: UITextField!
-    
+
+    @IBOutlet weak var nameTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpView()
@@ -23,13 +23,14 @@ class HomeViewController: UIViewController {
     
     //MARK: - Methods
     private func setUpView(){
-        nametextField.attributedPlaceholder = NSAttributedString(string: "Enter name", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        nameTextField.attributedPlaceholder = NSAttributedString(string: "Enter name", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
     }
     private func setUpNotification(){
-        NotificationCenter.default.post(name: .name, object: nil, userInfo: ["username" : nametextField.text ?? ""])
+        NotificationCenter.default.post(name: .name, object: nil, userInfo: ["username" : nameTextField.text ?? ""])
     }
     
 }
 extension Notification.Name{
     static let name = NSNotification.Name("userName")
 }
+
